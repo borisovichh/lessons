@@ -1,0 +1,57 @@
+@import url("reset.css");
+*{
+	color: red;
+}
+.text{
+	color: aqua;
+}
+.text > p{
+	color: green;
+}
+#reunification + p{
+	color: blue;
+}
+.img-tatoo ~ p{
+	color: blueviolet;
+}
+.img-tatoo + p{
+	color: indigo;
+}
+.list *{
+	color: bisque;
+}
+h2 {
+	color: aqua;
+}
+a {
+	color: rosybrown;
+}
+.list .syb-title {
+	color: rebeccapurple;
+}
+.text p{
+	color: greenyellow;
+}
+h3 {
+	color: magenta;
+}
+[class*="bold"]{
+	color: darkorange;
+}
+.on-head p{
+	color: teal;
+}
+.list p{
+	color: black;
+}
+.on-head a{
+	color: blue;
+}
+.on-head ~ p{
+	color: black;
+}
+
+
+
+
+/* Стаття взята з "мені повезе" в Вікіпедії. В кінці роботи включив пару треків, то жесть*/
