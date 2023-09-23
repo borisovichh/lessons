@@ -4,11 +4,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
 @import url("reset.css");
 body{
-	font-family: "ComicSansMS";
+	font-family: "ComicSansMS", serif;
 	font-size: 18px;
 }
 .title{
-	font-family: "ComicSansMS";
 	font-weight: 700;
 	font-size: 24px;
 	text-transform: uppercase;
@@ -19,20 +18,19 @@ body{
 	word-spacing: 7px;
 }
 .syb-title{
-	font-family: "ComicSansMS";
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
 	color: blue;
 }
 .content{
-	font-family: "EBGaramond08";
+	font-family: "EBGaramond08", serif;
 	color: brown;
 	font-size: 35px;
 	text-transform: lowercase;
 }
 .list{
-	font-family: "Open Sans";
+	font-family: "Open Sans", cursive;
 	font-size: 20px;
 	color: teal;
 	text-decoration: underline;
@@ -47,7 +45,7 @@ body{
 	text-indent: 40px;
 }
 .link-up{
-	font-family: "EBGaramond08";
+	font-family: "EBGaramond08", cursive;
 	color: rgba(137, 43, 226, 0.509);
 	font-style: italic;
 	font-size: 30px;
