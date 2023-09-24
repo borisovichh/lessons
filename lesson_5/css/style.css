@@ -1,7 +1,5 @@
 @import url("fonts.css");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:regular,700italic&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+
 @import url("reset.css");
 body{
 	font-family: "ComicSansMS", serif;
@@ -30,7 +28,7 @@ body{
 	text-transform: lowercase;
 }
 .list{
-	font-family: "Open Sans", cursive;
+	font-family: "Open+Sans", cursive;
 	font-size: 20px;
 	color: teal;
 	text-decoration: underline;
