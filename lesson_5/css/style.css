@@ -54,38 +54,38 @@ body{
 /* З Фігми */
 .why-us {
 	color: #37393F;
-	font-family: Poppins;
+	font-family: "Poppins";
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 1.27;
 }
 .block {
 	color: #7D7D7D;
-	font-family: Inter;
+	font-family: "Inter";
 	line-height: 1.46;
 }
 .benefits {
 	color: #6B77E5;
-	font-family: Poppins;
+	font-family: "Poppins";
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 1.27;
 }
 .project-info {
 	color: #37393F;
-	font-family: Poppins;
+	font-family: "Poppins";
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.27;
 }
 .about-project {
 	color: #7D7D7D;
-	font-family: Inter;
+	font-family: "Inter";
 line-height: 1.46;
 }
 .list-info {
 	color: #7D7D7D;
-	font-family: Inter;
+	font-family: "Inter";
 	font-weight: 500;
 	line-height: 1.46;
 }
