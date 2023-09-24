@@ -1,5 +1,4 @@
 @import url("fonts.css");
-
 @import url("reset.css");
 body{
 	font-family: "ComicSansMS", serif;
@@ -28,11 +27,11 @@ body{
 	text-transform: lowercase;
 }
 .list{
-	font-family: "Open+Sans", cursive;
+	font-family: "Open Sans", cursive;
 	font-size: 20px;
 	color: teal;
 	text-decoration: underline;
-	font-style: oblique;
+	font-style: italic;
 	text-transform: capitalize;
 	letter-spacing: 3px;
 }
@@ -55,41 +54,38 @@ body{
 /* З Фігми */
 .why-us {
 	color: #37393F;
-	font-family: Poppins, sans-serif;
+	font-family: Poppins;
 	font-size: 30px;
 	font-weight: 600;
 	line-height: 1.27;
 }
 .block {
 	color: #7D7D7D;
-	font-family: Inter, sans-serif;
-	font-size: 18px;
+	font-family: Inter;
 	line-height: 1.46;
 }
 .benefits {
 	color: #6B77E5;
-	font-family: Poppins, sans-serif;
+	font-family: Poppins;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 1.27;
 }
 .project-info {
 	color: #37393F;
-	font-family: Poppins, sans-serif;
+	font-family: Poppins;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1.27;
 }
 .about-project {
 	color: #7D7D7D;
-	font-family: Inter, sans-serif;
-font-size: 18px;
+	font-family: Inter;
 line-height: 1.46;
 }
 .list-info {
 	color: #7D7D7D;
-	font-family: Inter, sans-serif;
+	font-family: Inter;
 	font-weight: 500;
-	font-size: 18px;
 	line-height: 1.46;
 }
