@@ -1,0 +1,168 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+	font-family: "Inter", sans-serif;
+	color: #7D7D7D;
+	font-size: 18px;
+}
+header{
+	text-align: center;
+	font-size: 25px;
+	text-transform: capitalize;
+	padding: 20px 0 20px 0;
+}
+.maket-1{
+margin-bottom: 20px;
+max-width: 692px;
+margin: 0 auto 50px;
+}
+.service-single img{
+	margin-bottom: 37px;
+}
+.service-single {
+	margin-bottom: 42px;
+}
+h1{
+	color: #37393F;
+	font-family: "Poppins", serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 1.27;
+}
+.service-single p{
+	line-height: 1.47;
+}
+.envisioned{
+	color: #6B77E5;
+	font-family: "Poppins", serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+.envisioned ~ p{
+	line-height: 1.47;
+}
+.proactively{
+	margin-bottom: 40px;
+}
+.image{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 29px;
+}
+.text{
+	max-width: 322px;
+	display: inline-block;
+}
+.benefits{
+	font-size: 0;
+}
+.our-benefits{
+	color: #37393F;
+	font-size: 25px;
+	font-family: "Poppins", serif;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 15px;
+}
+.incubate{
+	color: #40DDB6;
+	font-family: "Poppins", serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 23.5px;
+}
+.text li{
+	margin-bottom: 35px;
+	font-size: 18px;
+}
+/* макет 2 */
+.maket-2{
+	max-width: 1300px;
+	margin: 0 auto 50px;
+}
+.maket2-what {
+	max-width: 653px;
+	display: inline-block;
+	margin-right: 38px;
+}
+.maket-2-picture {
+	display: inline-block;
+	vertical-align: top;
+}
+.syb-title{
+	color: #D06B00;
+	font-size: 28px;
+	margin-bottom: 13px;
+	text-transform: uppercase;
+}
+.we-develop {
+	color: #0E333D;
+	font-family: "DM Serif Text", serif;
+	text-transform: capitalize;
+	font-size: 59px;
+	line-height: 1.465;
+	margin-bottom: 25px;
+}
+.maket2-what p{
+	color: #474747;
+	font-size: 20px;
+	line-height: 1.8;
+}
+.maket-2-picture img{
+	margin-right: 22px;
+}
+
+
+/* Домашня робота */
+
+.homework{
+	max-width: 1300px;
+	overflow: hidden;
+	margin: 0 auto 0;
+}
+.green {
+	overflow: hidden;
+	max-height: 200px;
+}
+.donut {
+	margin-top: -200px;
+	margin-left: 300px;
+}
+.donut img{
+	max-width: 300px;
+}
+.about-donut {
+	padding: 40px;
+	max-height: 200px;
+	margin-bottom: 150px;
+}
+.about-donut div{
+	display: inline-block;
+	max-width: 350px;
+	max-height: 100px;
+}
+.donate-scroll-auto {
+	vertical-align: top;
+	overflow: auto;
+	margin-right: 70px;
+}
+.donate-visible{
+	vertical-align: top;
+	overflow: visible;
+	margin-right: 70px;
+}
+.donate-hiden {
+	overflow: hidden;
+}
+.none {
+	display: none;
+}
+footer p{
+	text-align: center;
+	font-size: 50px;
+}
