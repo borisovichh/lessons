@@ -171,7 +171,7 @@ padding-left: 21px;
 .jewellery-text{
 	padding-top: 70px;
 	display: inline-block;
-	margin-right: 75px;
+	margin-right: 85px;
 }
 .jewellery-text h3,
 .jewellery-text h2,
@@ -196,18 +196,32 @@ padding-left: 21px;
 	font-size: 30px;
 	line-height: 1.4;
 }
-.jewellery-image {
-	display: inline-block;
-	vertical-align: top;
-
+.jewellery-image{
+display: inline-block;
+vertical-align: top;
 }
-.jewellery-image-left {
-	display: inline-block;
-	margin-right: 20px;
+.red-flower {
+display: inline-block;
+border-radius: 235px;
+border: 1px solid #502203;
+width: 177px;
+height: 336px;
+margin-right: 30px;
 }
-.jewellery-image-right {
-	display: inline-block;
-	vertical-align: top;
+.red-flower img{
+vertical-align: middle;
+margin: 14px 0 0 -10px;
+}
+.beige-suit {
+display: inline-block;
+border-radius: 235px;
+border: 1px solid #502203;
+width: 307px;
+height: 500px;
+}
+.beige-suit img{
+vertical-align: middle;
+margin: 19px 0 0 -11px;
 }
 .jewellery-block {
 	display: inline-block;
