@@ -6,6 +6,7 @@ header p{
 	font-size: 30px;
 	font-style: oblique;
 	text-shadow: 5px 5px 5px #000;
+	margin-bottom: 50px;
 }
 body{
 	color: #7D7D7D;
@@ -84,7 +85,7 @@ h3{
 }
 .project{
 	max-width: 1220px;
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	padding-left: 390px;
 }
 .project-information{
@@ -114,6 +115,7 @@ margin-bottom: 13px;
 	margin: 0 auto;
 	letter-spacing: 0.4px;
 	line-height: 1.67;
+	margin-bottom: 50px;
 }
 .womens-clothing-title{
 font-size: 0;
