@@ -73,14 +73,14 @@ h1{
 .experiense {
 	padding: 31px 32px 0 90px;
 	max-width: 295px;
-background-image: url("../img/icon-list.svg");
-background-repeat: no-repeat;
-background-position: 32px 31px;
-display: inline-block;
-margin-right: 21px;
-border: 1px solid #E3E3E3;
-vertical-align: top;
-min-height: 140px;
+	background-image: url("../img/icon-list.svg");
+	background-repeat: no-repeat;
+	background-position: 32px 31px;
+	display: inline-block;
+	margin-right: 21px;
+	border: 1px solid #E3E3E3;
+	vertical-align: top;
+	min-height: 140px;
 }
 .advantages h4{
 	color: #37393F;
@@ -232,6 +232,9 @@ margin-bottom: 10px;
 	background-position: 0 3px;
 	padding-left: 21px;
 	font-weight: 600;
+}
+.bold{
+font-weight: 700;
 }
 .reexplore,
 .destination,
