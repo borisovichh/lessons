@@ -71,7 +71,7 @@ h1{
 	font-size: 0;
 }
 .experiense {
-	padding: 31px 32px 32px 90px;
+	padding: 31px 32px 0 90px;
 	max-width: 295px;
 background-image: url("../img/icon-list.svg");
 background-repeat: no-repeat;
@@ -80,6 +80,7 @@ display: inline-block;
 margin-right: 21px;
 border: 1px solid #E3E3E3;
 vertical-align: top;
+min-height: 140px;
 }
 .advantages h4{
 	color: #37393F;
@@ -97,11 +98,12 @@ vertical-align: top;
 .awards-winner {
 	display: inline-block;
 	max-width: 296px;
-	padding: 31px 35px 32px 95px;
+	padding: 31px 35px 0 95px;
 	background-image: url("../img/icon-cup.svg");
 	background-repeat: no-repeat;
 	background-position: 37px 31px;
 	border: 1px solid #E3E3E3;
+	min-height: 140px;
 }
 .button{
 	background: #6B77E5;
