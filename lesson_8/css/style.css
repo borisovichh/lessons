@@ -164,6 +164,7 @@ h1{
 	display: inline-block;
 	width: 384px;
 	vertical-align: top;
+	background-size: contain;
 }
 .consulting-two-photo h4{
 font-size: 20px;
