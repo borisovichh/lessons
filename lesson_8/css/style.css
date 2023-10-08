@@ -272,6 +272,7 @@ font-weight: 700;
 	margin: 0 auto;
 	color: #FFF;
 	margin-bottom: 50px;
+	font-size: 0;
 }
 
 .euphoria-2-left{
@@ -283,6 +284,8 @@ font-weight: 700;
 	vertical-align: top;
 	font-size: 18px;
 	padding: 183px 0 0 74px;
+	background-position: center;
+	background-size: contain;
 }
 .euphoria-2-right{
 	background-image: url("../img/friend.jpg");
@@ -290,6 +293,8 @@ font-weight: 700;
 	min-height: 639.7px;
 	min-width: 626px;
 	display: inline-block;
+	background-position: center;
+	background-size: contain;
 }
 .euphoria-content {
 	max-width: 1240px;
