@@ -13,6 +13,9 @@ header{
 	margin: 0 auto 30px;
 	font-size: 0;
 }
+h1{
+	font-size: 50px;
+}
 h1:hover{
 	color: rebeccapurple;
 	text-shadow: 3px 3px 3px red;
@@ -26,7 +29,9 @@ h1:hover{
 	margin-bottom: 3px;
 	text-transform: capitalize;
 }
-.consulting-1 p{
+.consulting-1 p,
+.consulting-2 p,
+.consulting-3 p{
 	color: #7D7D7D;
 	font-family: Inter;
 	font-size: 18px;
@@ -76,10 +81,11 @@ h3{
 	font-family: Inter;
 	font-size: 18px;
 	line-height: 1.2;
+	min-height: 27px;
 }
 .list::before{
 	content: url("../img/Vector.svg");
-	vertical-align: middle;
+	vertical-align: -7px;
 	margin-left: -33px;
 	display: inline-block;
 }
@@ -91,5 +97,128 @@ h3{
 }
 li{
 	padding-left: 35px;
+}
+.consulting-2{
+	max-width: 675px;
+	margin: 0 auto 30px;
+}
+.consulting-2 h3,
+.consulting-3 h3{
+	color: #37393F;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+.consulting-2 h3::before,
+.consulting-3 h3::before{
+	content: url("../img/green-dot.svg");
+	display: inline-block;
+	vertical-align: center;
+}
+.consulting-2 h2,
+.consulting-3 h2{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	max-width: 414px;
+	margin-bottom: 10px;
+}
+.consulting-2 p:not(:last-of-type){
+	margin-bottom: 16px;
+}
+.consulting-2 > p:last-of-type{
+	margin-bottom: 48px;
+}
+.block:not(:last-of-type){
+	margin-bottom: 31px;
+}
+.block:last-of-type{
+	margin-bottom: 48px;
+}
+.vision,
+.mision{
+	max-width: 675px;
+	border: 1px solid #E3E3E3;
+	padding: 28px 41px 28px 84px;
+	
+}
+.consulting-2 h4{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 12px;
+	line-height: 1.2;
+}
+.block h4::before{
+	content: url("../img/Vector.svg");
+	display: inline-block;
+	width: 27px;
+	margin-left: -46px;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+.block h4:hover::before{
+	opacity: 0.8;
+}
+.consulting-2 a{
+	width: 200px;
+	height: 65px;
+	text-transform: capitalize;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #FFF;
+	text-align: center;
+	font-family: Inter;
+	font-size: 18px;
+	background: #6B77E5;
+	display: inline-block;
+	padding-top: 21px;
+}
+.consulting-2 a:hover{
+	background: #40DDB6;
+	color: #37393F;
+}
+.consulting-3{
+	max-width: 1220px;
+	margin: 0 auto 30px;
+}
+.consulting-3 h3{
+	text-align: center;
+	margin-bottom: 16px;
+}
+.consulting-3 h2{
+	max-width: none;
+	text-align: center;
+	margin-bottom: 41px;
+}
+.how-we-work{
+	padding-top: 36px;
+}
+.work-block{
+	max-width: 386px;
+	padding: 58px 43px;
+	display: inline-block;
+	background: #F4F4F4;
+	font-size: 0;
+}
+.work-block h4{
+	color: #37393F;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 16px;
+}
+.consulting-3 p{
+	text-align: center;
+}
+.left,
+.center{
+	margin-right: 31px;
 }
 
