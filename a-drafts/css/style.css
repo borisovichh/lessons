@@ -1,0 +1,95 @@
+@import url("fonts.css");
+@import url("reset.css");
+header{
+	text-align: center;
+	padding: 30px;
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	outline: 3px solid black;
+}
+.consulting-1{
+	max-width: 692px;
+	margin: 0 auto 30px;
+	font-size: 0;
+}
+h1:hover{
+	color: rebeccapurple;
+	text-shadow: 3px 3px 3px red;
+}
+.consulting-1 h2{
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 3px;
+	text-transform: capitalize;
+}
+.consulting-1 p{
+	color: #7D7D7D;
+	font-family: Inter;
+	font-size: 18px;
+	line-height: 1.46;
+}
+.consulting-1 p:not(:last-child){
+	margin-bottom: 42px;
+}
+.consulting-1 p:nth-of-type(2){
+	margin-bottom: 38px;
+}
+h3{
+	color: #6B77E5;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+.content{
+	margin-bottom: 48px;
+}
+.workspace{
+	display: inline-block;
+	max-width: 331px;
+	margin-right: 29px;
+	vertical-align: top;
+}
+.workspace img{
+	width: 100%;
+}
+.benefits{
+	display: inline-block;
+	max-width: 332px;
+	vertical-align: top;
+}
+.benefits h2{
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+.benefits h3{
+	color: #40DDB6;
+	margin-bottom: 23px;
+}
+.list{
+	color: #7D7D7D;
+	font-family: Inter;
+	font-size: 18px;
+	line-height: 1.2;
+}
+.list::before{
+	content: url("../img/Vector.svg");
+	vertical-align: middle;
+	margin-left: -33px;
+	display: inline-block;
+}
+.list:hover::before{
+	opacity: 0.8;
+}
+.benefits li:not(:last-child){
+	margin-bottom: 25px;
+}
+li{
+	padding-left: 35px;
+}
+
