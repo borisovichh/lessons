@@ -1,0 +1,27 @@
+@import url("fonts.css");
+@import url("reset.css");
+body{
+	padding: 50px;
+}
+.block {
+	background-color: aqua;
+	padding: 20px;
+}
+.block-title {
+	font-weight: 700;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.block-text {
+	font-size: 25px;
+	line-height: 1.4;
+}
+.block-link {
+	text-transform: uppercase;
+}
+.block-link:hover{
+	color: blue;
+}
+.block > *:not(:last-of-type){
+	margin-bottom: 30px;
+}
