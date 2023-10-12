@@ -203,7 +203,7 @@ li{
 	padding: 58px 43px;
 	display: inline-block;
 	background: #F4F4F4;
-	font-size: 0;
+	vertical-align: top;
 }
 .work-block h4{
 	color: #37393F;
@@ -213,6 +213,10 @@ li{
 	font-weight: 600;
 	line-height: 1.27;
 	margin-bottom: 16px;
+	text-transform: capitalize;
+}
+.how-we-work{
+	font-size: 0;
 }
 .consulting-3 p{
 	text-align: center;
@@ -220,5 +224,78 @@ li{
 .left,
 .center{
 	margin-right: 31px;
+}
+.how-we-work p{
+	margin-bottom: 37px;
+}
+.how-we-work a{
+	color: #6B77E5;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 1.2;
+	display: inline-block;
+}
+.link-testimonials{
+	text-align: center;
+}
+.how-we-work a:hover{
+	color: #1122bb;
+	text-decoration: underline;
+}
+.left::before{
+	content: url("../img/calendar.svg");
+	display: block;
+	width: 72px;
+	height: 72px;
+	margin: -94px auto 22px;
+}
+.center:before{
+	content: url("../img/puzle.svg");
+	display: block;
+	width: 72px;
+	height: 72px;
+	margin: -94px auto 22px;
+}
+.right:before{
+	content: url("../img/check-mark.svg");
+	display: block;
+	width: 72px;
+	height: 72px;
+	margin: -94px auto 22px;
+}
+.left:hover::before,
+.center:hover::before,
+.right:hover::before{
+	outline: 2px solid #1c453a;
+	border-radius: 50%;
+}
+.jewellery {
+	max-width: 1600px;
+	padding: 160px 193px;
+
+}
+.jewellery h2{
+	max-width: 488px;
+	color: #000;
+	font-family: Cormorant Infant;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.15;
+	display: inline-block;
+}
+.goods{
+	max-width: 334px;
+	display: inline-block;
+	min-height: 487px;
+	vertical-align: top;
+}
+.image-goods{
+	min-width: 334px;
+	min-height: 381px;
+	background-image: url("../img/ring-white-rock.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
