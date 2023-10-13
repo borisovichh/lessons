@@ -92,6 +92,7 @@ h3{
 	content: "";
 	background-image: url("../img/vector.svg");
 	background-size: cover;
+	background-position: center;
 	width: 28px;
 	height: 29px;
 	border-radius: 50%;
@@ -168,6 +169,7 @@ li{
 	background-image: url("../img/vector.svg");
 	display: inline-block;
 	background-size: cover;
+	background-position: center;
 	border-radius: 50%;
 	background-repeat: no-repeat;
 	width: 29px;
@@ -284,7 +286,6 @@ li{
 	border-radius: 50%;
 	background-repeat: no-repeat;
 	display: block;
-	width: 100%;
 	width: 72px;
 	height: 72px;
 	margin: -94px auto 22px;
