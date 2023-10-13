@@ -89,7 +89,12 @@ h3{
 	min-height: 27px;
 }
 .list::before{
-	content: url("../img/Vector.svg");
+	content: "";
+	background-image: url("../img/vector.svg");
+	background-size: cover;
+	width: 28px;
+	height: 29px;
+	border-radius: 50%;
 	vertical-align: -7px;
 	margin-left: -33px;
 	display: inline-block;
@@ -159,9 +164,14 @@ li{
 	line-height: 1.2;
 }
 .block h4::before{
-	content: url("../img/Vector.svg");
+	content: "";
+	background-image: url("../img/vector.svg");
 	display: inline-block;
-	width: 27px;
+	background-size: cover;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	width: 29px;
+	height: 29px;
 	margin-left: -46px;
 	margin-right: 12px;
 	vertical-align: middle;
