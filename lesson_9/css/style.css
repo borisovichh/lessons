@@ -257,7 +257,8 @@ li{
 .left::before{
 	content: "";
 	background-image: url("../img/calendar.svg");
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 	border-radius: 50%;
 	background-repeat: no-repeat;
 	display: block;
@@ -268,7 +269,8 @@ li{
 .center:before{
 	content: "";
 	background-image: url("../img/puzle.svg");
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 	border-radius: 50%;
 	background-repeat: no-repeat;
 	display: block;
@@ -280,7 +282,8 @@ li{
 .right:before{
 	content: "";
 	background-image: url("../img/check-mark.svg");
-	background-size: 100%;
+	background-size: cover;
+	background-position: center;
 	border-radius: 50%;
 	background-repeat: no-repeat;
 	display: block;
