@@ -230,6 +230,11 @@ li{
 .center{
 	margin-right: 31px;
 }
+.left,
+.center,
+.right :not(:last-of-type){
+	margin-bottom: 20px;
+}
 .how-we-work p{
 	margin-bottom: 37px;
 }
@@ -250,21 +255,28 @@ li{
 	text-decoration: underline;
 }
 .left::before{
-	content: url("../img/calendar.svg");
+	content: "";
+	background-image: url("../img/calendar.svg");
+	background-size: 100%;
 	display: block;
 	width: 72px;
 	height: 72px;
 	margin: -94px auto 22px;
 }
 .center:before{
-	content: url("../img/puzle.svg");
+	content: "";
+	background-image: url("../img/puzle.svg");
+	background-size: 100%;
 	display: block;
+	width: 100%;
 	width: 72px;
 	height: 72px;
 	margin: -94px auto 22px;
 }
 .right:before{
-	content: url("../img/check-mark.svg");
+	content: "";
+	background-image: url("../img/check-mark.svg");
+	background-size: 100%;
 	display: block;
 	width: 72px;
 	height: 72px;
