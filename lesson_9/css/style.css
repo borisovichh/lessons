@@ -258,6 +258,8 @@ li{
 	content: "";
 	background-image: url("../img/calendar.svg");
 	background-size: 100%;
+	border-radius: 50%;
+	background-repeat: no-repeat;
 	display: block;
 	width: 72px;
 	height: 72px;
@@ -267,6 +269,8 @@ li{
 	content: "";
 	background-image: url("../img/puzle.svg");
 	background-size: 100%;
+	border-radius: 50%;
+	background-repeat: no-repeat;
 	display: block;
 	width: 100%;
 	width: 72px;
@@ -277,6 +281,8 @@ li{
 	content: "";
 	background-image: url("../img/check-mark.svg");
 	background-size: 100%;
+	border-radius: 50%;
+	background-repeat: no-repeat;
 	display: block;
 	width: 72px;
 	height: 72px;
