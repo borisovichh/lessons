@@ -1,0 +1,106 @@
+.game{
+	margin: 0 auto 30px;
+	width: 1000px;
+	height: 1000px;
+	background-color: brown;
+	font-size: 0;
+	padding: 10px;
+}
+.line{
+	display: inline-block;
+	height: 40px;
+	background-color: #81c268;
+	visibility: hidden;
+}
+.line-1 {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #81c268;
+}
+.line-2{
+	width: 200px;
+	margin-left: -10px;
+}
+.line-3{
+	width: 40px;
+	height: 120px;
+	vertical-align: top;
+}
+.line-4{
+width: 120px;
+vertical-align: bottom;
+}
+.line-5{
+	width: 40px;
+	height: 120px;
+	vertical-align: bottom;
+}
+.line-6{
+	width: 140px;
+	height: 40px;
+	vertical-align: top;
+}
+.line-7{
+	width: 40px;
+	height: 120px;
+	vertical-align: top;
+}
+.line-8{
+	width: 300px;
+	height: 40px;
+	vertical-align: bottom;
+}
+.line-9{
+	width: 40px;
+	height: 640px;
+	vertical-align: bottom;
+	margin-left: 870px;
+}
+.line-10{
+	width: 540px;
+	height: 40px;
+	vertical-align: bottom;
+	margin-left: 370px;
+}
+.line-11{
+	width: 40px;
+	height: 140px;
+	vertical-align: bottom;
+	margin-left: 370px;
+}
+.line-12{
+	width: 340px;
+	height: 40px;
+	vertical-align: bottom;
+	margin-left: -340px;
+}
+.line-13{
+	width: 40px;
+	height: 100px;
+	vertical-align: bottom;
+	margin-left: -340px;
+}
+.line-14{
+	background-color: #20bceb;
+	width: 40px;
+	height: 40px;
+	vertical-align: top;
+	margin-top: 40px;
+}
+.line:hover + .line,
+.line:hover{
+	visibility: visible;
+}
+.line-1{
+	visibility: visible;
+}
+.game-img{
+	width: 970px;
+	height: 700px;
+	margin-top: -900px;
+	visibility: hidden;
+}
+.line-14:hover + .game-img{
+	visibility: visible;
+}
