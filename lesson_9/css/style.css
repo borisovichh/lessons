@@ -143,18 +143,16 @@ li{
 .consulting-2 > p:last-of-type{
 	margin-bottom: 48px;
 }
-.block:not(:last-of-type){
+.list-block > li:not(:last-of-type){
 	margin-bottom: 31px;
 }
-.block:last-of-type{
+.list-block:last-of-type{
 	margin-bottom: 48px;
 }
-.vision,
-.mision{
+.list-block li{
 	max-width: 675px;
 	border: 1px solid #E3E3E3;
 	padding: 28px 41px 28px 84px;
-	
 }
 .consulting-2 h4{
 	color: #37393F;
@@ -164,7 +162,7 @@ li{
 	margin-bottom: 12px;
 	line-height: 1.2;
 }
-.block h4::before{
+.list-block h4::before{
 	content: "";
 	background-image: url("../img/vector.svg");
 	display: inline-block;
@@ -178,7 +176,7 @@ li{
 	margin-right: 12px;
 	vertical-align: middle;
 }
-.block h4:hover::before{
+.list-block h4:hover::before{
 	opacity: 0.8;
 }
 .consulting-2 a{
