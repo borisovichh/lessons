@@ -459,3 +459,14 @@ visibility: visible;
 	margin-left: -20px;
 	margin-right: 10px;
 }
+.cheting{
+	width: 50px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+.cheting img{
+	width: 100%;
+}
+.line-13:target{
+	visibility: visible;
+}
