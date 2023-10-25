@@ -1,0 +1,46 @@
+@import url("fonts.css");
+@import url("reset.css");
+header,
+body,
+footer{
+	max-width: 1220px;
+	margin:0 auto 50px;
+	text-align: center;
+	background: linear-gradient(90deg, rgba(97,42,81,1) 0%, rgba(69,252,99,1) 100%);
+	padding: 50px 0;
+}
+main{
+	margin-bottom: 50px;
+}
+h1,
+h2{
+	font-weight: 900;
+	font-size: 35px;
+	color: rgb(108, 220, 183);
+	display: inline-block;
+}
+h1:hover,
+h2:hover{
+	text-shadow: 4px 4px 4px rgb(29, 23, 95);
+}
+p:not(:last-child){
+	margin-bottom: 40px;
+}
+img{
+	vertical-align: middle;
+}
+div:not(:last-child){
+margin-bottom: 40px;
+}
+div img{
+	width: 100%;
+}
+.work{
+max-width: 868px;
+}
+.handshake{
+	max-width: 1093px;
+}
+.friend{
+	max-width: 407px;
+}
