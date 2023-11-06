@@ -6,9 +6,14 @@
 	border: 0;
 	box-sizing: border-box;
 }
+*::before,
+*::after {
+	display: inline-block;
+}
 a {
 	text-decoration: none;
 	color: inherit;
+	display: inline-block;
 }
 li {
 	list-style: none;
@@ -29,4 +34,9 @@ html,
 body {
 	line-height: 1;
 	height: 100%;
+}
+.wrapper{
+overflow: clip;
+min-height: 100%;
+
 }
