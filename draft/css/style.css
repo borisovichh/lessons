@@ -1,161 +1,104 @@
 @import url("fonts.css");
 @import url("reset.css");
+body{
+	background-color: rgb(175, 163, 163);
+}
 .wrapper{
-	max-width: 1220px;
-	margin: 0 auto;
-	font-size: 0;
+	min-height: 100%;
+	padding: 50px;
 }
-.image{
-	width: 386px;
-	position: relative;
-	display: inline-block;
-}
-.image:not(:last-child){
-	margin-right: 31px;
-}
-.image img{
-	width: 100%;
-}
-.title-image {
-	color: #37393F;
-text-align: center;
-font-family: Poppins;
-font-size: 25px;
-font-weight: 600;
-line-height: 1.21;
-margin-bottom: 4px;
-}
-.syb-title-image {
-	color: #7D7D7D;
-	text-align: center;
-	font-family: Inter;
-	font-size: 18px;
-	line-height: 1.35;
-}
-.image__info {
-	width: 342px;
-	padding: 24px 40px;
-	background: #FFF;
-	position: absolute;
-	top: 396px;
-	left:22px;
-	z-index: 3;
-}
-.image__info:hover{
-	outline: 2px solid green;
-}
-.image__social {
-	background: rgba(107, 119, 229, 0.70);
-position: absolute;
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-z-index: 2;
-visibility: hidden;
-}
-.link__image__social a{
-	max-width: 45px;
-
-}
-.link__image__social a:not(:last-child){
-	margin-right: 13px;
-}
-.link__image__social{
-	position: absolute;
-	top: 244px;
-	left: 108px;
-}
-.image:hover .image__social{
-visibility: visible;
-}
-.link__image__social img:hover{
-	border: 2px solid green;
-	border-radius: 50%;
-}
-.section-top{
-	margin-bottom: 31px;
-	padding-top:100px;
-	position: relative;
-	top: 0;
-	left: 0;
-}
-.header{
-	position: fixed;
-	top: 0;
-	left: 0;
-	background: #37393F;
-	width: 100%;
-	height: 100px;
-	z-index: 50;
-	color: #FFF;
-	font-size: 25px;
-	padding-top: 20px;
-	padding-left: 25px;
-}
-.body-header{
-	max-width: 1220px;
-	margin: 0 auto;
-}
-.menu {
-}
-.menu__item {
+.block{
+	width: 200px;
+	height: 200px;
+	background-color: brown;
 	display: inline-block;
 	vertical-align: top;
-	position: relative;
+}
+.block__item {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+.block{
+	margin-right: 50px;
+}
+.block__item {
+	transform: scale(0.8);
+}
+.block-2{
+	background-color: aliceblue;
+}
+.block-3{
+	background-color: rgb(45, 118, 90);
+}
+.block-4{
+	background-color: rgb(92, 13, 39);
+}
+.block-5{
+	background-color: aliceblue;
+}
+.rotate,
+.skew{
+	padding-top: 70px;
+	color: aliceblue;
+	font-size: 45px;
+	font-weight: bold;
+	text-transform: uppercase;
 	text-align: center;
 }
-.menu__link {
-	background: #676a73;
-	padding: 20px;
-	min-width: 150px;
+.rotate:hover{
+	transform-origin:100% 0 ;
+	transform: rotate(2deg) ;
+	opacity: 0.5;
+	outline: 2px solid rgb(11, 13, 12);
 }
-.menu__item:not(:last-child){
-	margin-right: 190px;
+.block-6{
+	background-color: rgb(51, 8, 117);
+	color: aliceblue;
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 35%;
 }
-.menu__item:hover .menu__link{
-	background-color: #a28a8a;
+.block-7{
+	background-color: rgb(44, 88, 127);
 }
-.sub-menu {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	background-color: #37393F;
-	visibility: hidden;
+.block-8{
+	background-color: rgb(22, 179, 90)255, 246);
 }
-.sub-menu__item {
+.block-9{
+	background-color: rgb(125, 74, 12);
 }
-.sub-menu__link{
-	padding: 20px;
-	display: inline-block;
-	min-width: 150px;
+.block-10{
+	background-color: aliceblue;
 }
-.sub-menu__link:hover,
-.menu-list__link:hover{
-	text-decoration: underline;
-	background-color: #7D7D7D;
+.block:hover{
+	outline: 2px solid rgb(11, 13, 12);
 }
-.menu__item:hover .sub-menu{
-	visibility: visible;
+.block div:hover{
+	outline: 2px solid rgb(11, 13, 12);
+	transform: translate(20px, 20px);
 }
-.list{
-	position: relative;
+.skew{
+	transform: skew(-20deg, 0deg);
 }
-.menu-list {
-	position: absolute;
-	top: 0;
-	left: 100%;
+.skew:hover{
+	transform: skew(20deg, 0deg);
 }
-.menu-list__item {
-	min-width: 150px;
-}
-.menu-list__link {
-	padding: 20px;
-	background-color: #37393F;
-	visibility: hidden;
-}
-.sub-menu__item:hover .menu-list__link{
-	visibility: visible;
-}
+.moon{
+width: 400px;
+height: 400px;
+background-color: aliceblue;
+border-radius: 50%;
 
-
+}
+.moon__item{
+	width: 400px;
+	height: 400px;
+	background-color: rgb(175, 163, 163);
+	border-radius: 50%;
+}
+.moon:hover .moon__item{
+	transform: translate(150px,20px);
+}
