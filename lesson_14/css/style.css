@@ -1,0 +1,402 @@
+@import url("fonts.css");
+@import url("reset.css");
+body{
+	background-color: rgb(175, 163, 163);
+	max-width: 1300px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wrapper{
+	min-height: 100%;
+	position: relative;
+}
+.wrapper{
+	background-image: url("../img/background.webp");
+background-size: cover;
+width: 1200px;
+height: 1200px;
+animation-name: rotate-block;
+animation-duration: 20s;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-fill-mode: forwards;
+}
+@keyframes rotate-block {
+	0% {
+		transform: scale(1);
+
+	}
+	40% {
+		transform: scale(1.2);
+		transform-origin: 700px 400px;
+	}
+	50% {
+		transform: scale(1.3);
+		transform-origin: 700px 400px;
+	}
+	70% {
+
+	}
+	60% {
+
+	}
+	100% {
+		transform: scale(1.3);
+	}
+}
+.plate__bottom{
+	width: 50px;
+	height: 13px;
+	border: 1px solid black;
+	border-radius: 48% 52% 49% 51% / 50% 55% 45% 50% ;
+	background: rgb(34,193,195);
+	background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 17%, rgba(253,187,45,1) 73%);
+	background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 17%, rgba(253,187,45,1) 73%);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 17%, rgba(253,187,45,1) 73%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+	position: relative;
+	left: 700px;
+	top: 400px;
+	z-index: 2;
+}
+.plate__header{
+	width: 30px;
+	height: 10px;
+	border: 1px solid black;
+	border-radius:48% 52% 49% 51% / 84% 85% 15% 16%  ;
+	background: rgb(34,44,195);
+	background: -moz-linear-gradient(0deg, rgba(34,44,195,1) 17%, rgba(253,45,123,1) 73%);
+	background: -webkit-linear-gradient(0deg, rgba(34,44,195,1) 17%, rgba(253,45,123,1) 73%);
+	background: linear-gradient(0deg, rgba(34,44,195,1) 17%, rgba(253,45,123,1) 73%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#222cc3",endColorstr="#fd2d7b",GradientType=1);
+	position: absolute;
+	left: 710px;
+	top: 395px;
+	color: azure;
+	font-size: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 3px;
+	animation-name: text;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	z-index: 3;
+}
+@keyframes text {
+	0% {
+		color: azure;
+	}
+	50% {
+		color: rgb(43, 226, 58);
+	}
+	100% {
+		color: rgb(226, 119, 43);
+	}
+}
+.plate{
+	width: 200px;
+	height: 200px;
+	animation-timing-function: linear;
+	animation-delay: 5s;
+	animation-name: moving;
+	animation-duration: 8s;
+	position: relative;
+	visibility: hidden;
+}
+@keyframes moving {
+	0% {
+		top: -400px;
+		left: -150px;
+		visibility: visible;
+	}
+	10% {
+		top: -60px;
+		left: -110px;
+	}
+	20% {
+		top: -40px;
+		left: 150px;
+	}
+	30% {
+		top: -20px;
+		left: 100px;
+	}
+	50% {
+	top: -20px;
+	left: 160px;
+	}
+	60% {
+	top: -60px;
+	left: 100px;
+	}
+	70% {
+	top: -40px;
+	left: 120px;
+	}
+	80% {
+	top: -20px;
+	left: 60px;
+	}
+	90% {
+	top: -50px;
+	left: 160px;
+	}
+	100% {
+	top: -300px;
+	left: 30px;
+	visibility: visible;
+	}
+}
+.plate__boom,
+.plate__boom-two{
+	width: 5px;
+	height: 5px;
+	border: 1px solid black;
+	position: absolute;
+	top: 20%;
+	left:-40px;
+	margin-left: 10px;
+	margin-top: 10px;
+	animation-name: boom;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	z-index: 1;
+	border-radius: 50%;
+	background-color: rgb(71, 255, 102);
+}
+.plate__boom-two{
+	top: 10%;
+	left:-80px;
+	margin-left: 20px;
+	margin-top: 10px;
+	animation-name: boom-two;
+}
+@keyframes boom {
+	0% {
+		top: 0;
+		left: 0;
+	}
+	100% {
+		top: 200px;
+		right: 120px;
+	}
+}
+@keyframes boom-two {
+	0% {
+		left: 0;
+	}
+	100% {
+		top: 180px;
+	}
+}
+.wrap {
+	width: 700px;
+	height: 400px;
+	position: absolute;
+	left: 400px;
+	top: 300px;
+}
+.car{
+	position: relative;
+	top: 90%;
+	left: 65%;
+	transform: rotate(70deg);
+	display: inline-block;
+	animation-name: car;
+	animation-timing-function: linear;
+	animation-duration: 15s;
+	animation-delay: 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	z-index: 3;
+	visibility: hidden;
+}
+.car__body {
+	width: 80px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 40% 0% 10% 42% / 92% 80% 10% 0% ;
+	background: rgb(97,42,81);
+background: -moz-linear-gradient(90deg, rgba(97,42,81,1) 0%, rgba(69,252,99,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(97,42,81,1) 0%, rgba(69,252,99,1) 100%);
+background: linear-gradient(90deg, rgba(97,42,81,1) 0%, rgba(69,252,99,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#612a51",endColorstr="#45fc63",GradientType=1);
+font-size: 7px;
+padding-top: 5px;
+padding-left:35px;
+color: #190c0c;
+}
+.car__wheels {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+	animation-name: car-ride;
+	animation-timing-function: linear;
+	animation-duration: 1.3s;
+	animation-iteration-count: infinite;
+position: absolute;
+border: 1px dotted white;
+top: 30px;
+left: 10px;
+background: rgb(238,174,202);
+background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(9,14,20,1) 43%);
+background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(9,14,20,1) 43%);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(9,14,20,1) 43%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#090e14",GradientType=1);
+}
+.two{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+	animation-name: car-ride;
+	animation-timing-function: linear;
+	animation-duration: 1.3s;
+	animation-iteration-count: infinite;
+position: absolute;
+border: 1px dotted white;
+top: 30px;
+left: 50px;
+background: rgb(238,174,202);
+background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(9,14,20,1) 43%);
+background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(9,14,20,1) 43%);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(9,14,20,1) 43%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#090e14",GradientType=1);
+}
+@keyframes car-ride {
+	0% {
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(-360deg);
+	}
+}
+.car__door{
+	border-radius: 98% 0% 10% 0% / 100% 80% 0% 0% ;
+	width: 19px;
+	height: 22px;
+	position: absolute;
+	background-color: #fff;
+	top: 5px;
+	left: 8px;
+	border: 1px solid black;
+	background: rgb(34,195,192);
+background: -moz-linear-gradient(0deg, rgba(34,195,192,0.4802784222737819) 44%, rgba(45,60,253,1) 73%);
+background: -webkit-linear-gradient(0deg, rgba(34,195,192,0.4802784222737819) 44%, rgba(45,60,253,1) 73%);
+background: linear-gradient(0deg, rgba(34,195,192,0.4802784222737819) 44%, rgba(45,60,253,1) 73%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c3c0",endColorstr="#2d3cfd",GradientType=1);
+}
+.car__fire {
+position: absolute;
+top: 24px;
+left: 80px;
+width: 20px;
+height: 10px;
+border-radius: 98% 0% 100% 0% / 100% 5% 86% 0% ;
+background: rgb(195,137,34);
+background: -moz-linear-gradient(0deg, rgba(195,137,34,0.8909512761020881) 44%, rgba(253,45,103,1) 73%);
+background: -webkit-linear-gradient(0deg, rgba(195,137,34,0.8909512761020881) 44%, rgba(253,45,103,1) 73%);
+background: linear-gradient(0deg, rgba(195,137,34,0.8909512761020881) 44%, rgba(253,45,103,1) 73%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c38922",endColorstr="#fd2d67",GradientType=1);
+	animation-name: fire;
+	animation-timing-function: linear;
+	animation-duration: 0.1s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes fire {
+	0% {
+		top: 24px;
+	left: 80px;
+	width: 20px;
+	height: 10px;
+	}
+	100%{
+		top: 24px;
+	left: 80px;
+	width: 10px;
+	height: 10px;
+	}
+}
+@keyframes car {
+	0% {
+		top: 70%;
+		left: 65%;
+		transform: rotate(70deg);
+		visibility: visible;
+	}
+	10% {
+		top: 65%;
+		left: 60%;
+		transform: rotate(67deg);
+	}
+	20%{
+		top: 60%;
+		left: 55%;
+		transform: rotate(43deg);
+	}
+	30%{
+		top: 50%;
+		left: 45%;
+		transform: rotate(40deg);
+	}
+	40%{
+		top: 50%;
+		left: 45%;
+		transform: rotate(35deg);
+	}
+	40%{
+		top: 45%;
+		left: 40%;
+		transform: rotate(25deg);
+	}
+	60%{
+		top: 35%;
+		left: 35%;
+		transform: rotate(42deg);
+	}
+	80%{
+		top: 25%;
+		left: 25%;
+		transform: rotate(20deg);
+	}
+	90%{
+		top: 15%;
+		left: 20%;
+		transform: rotate(30deg);
+	}
+	100%{
+		top: 1%;
+		left: 15%;
+		transform: rotate(40deg);
+	}
+}
+.flag {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 490px;
+	top: 250px;
+	display: inline-block;
+}
+.flag__stand {
+	width: 5px;
+	height: 70px;
+	background-color: black;
+	position: absolute;
+	left: 50px;
+	z-index: 1;
+}
+.flag__header {
+	width: 50px;
+	height: 30px;
+	background-color: aqua;
+	position: relative;
+	left: 50px;
+	border-radius:100% 0% 91% 0% / 0% 24% 74% 10% ;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 10px;
+	font-size: 10px;
+}
