@@ -41,7 +41,7 @@ animation-fill-mode: forwards;
 
 	}
 	100% {
-		transform: scale(1);
+		transform: scale(0.8);
 	}
 }
 .plate__bottom{
@@ -422,7 +422,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c38922",endCo
 
 }
 .block:not(:last-child){
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .block--one{
 	transition-duration: 1s;
