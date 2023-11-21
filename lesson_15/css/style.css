@@ -114,6 +114,8 @@ body{
 	gap: 20px;
 }
 .content__dot {
+	flex-grow: 0;
+	flex-shrink: 0;
 	width: 6px;
 	height: 30px;
 	border-radius: 10px;
@@ -194,9 +196,11 @@ text-decoration: underline;
 .wishlist__item {
 	display: flex;
 	flex-shrink: 1;
+	flex-grow: 0;
 	justify-content: space-between;
 	align-items: center;
 	gap: 36px;
+
 }
 
 .wishlist__photo {
@@ -204,7 +208,7 @@ text-decoration: underline;
 	max-height: 110px;
 	border-radius: 4px;
 }
-.wishlist__photo a{
+.wishlist__photo img{
 	width: 100%;
 }
 .wishlist__content {
@@ -238,7 +242,7 @@ letter-spacing: 0.44px;
 	flex-basis: 272px;
 	justify-content: space-between;
 	align-items: center;
-	flex-shrink: 1;
+	flex-shrink: 0;
 }
 .wishlist__price {
 	color: #807D7E;
@@ -247,6 +251,9 @@ font-size: 22px;
 font-weight: 700;
 line-height: 1.21;
 letter-spacing: 0.44px;
+}
+.wishlist__button{
+	flex-shrink: 0;
 }
 .wishlist__button a{
 	color: #FFF;
@@ -309,6 +316,12 @@ line-height: 1.21;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: normal;
+	flex-shrink: 1;
+}
+.orders__date{
+	flex-basis: 400px;
+	flex-grow: 0;
+	flex-shrink: 0;
 }
 .orders__date p{
 	text-align: left;
@@ -319,6 +332,9 @@ line-height: 1.21;
 }
 .orders__status {
 	text-align: right;
+	flex-basis: 400px;
+	flex-shrink: 1;
+	flex-grow: 0;
 }
 .view {
 display: flex;
@@ -334,16 +350,17 @@ background: url(<path-to-image>), lightgray -68.236px -25px / 235.909% 157.292% 
 .view__photo:hover {
 	outline: 1px solid black;
 }
-.view__photo a{
+.view__photo img{
 	width: 100%;
 }
 .view__info {
 	max-width: 773px;
-	display: flex;
+	display: inline-flex;
 	flex-grow: 1;
 	justify-content: space-between;
 	align-self: center;
 	padding: 3px 0 3px 0;
+
 }
 .view__name {
 	margin-bottom: 5px;
@@ -363,6 +380,8 @@ line-height: 1.21;
 font-family: Causten;
 font-weight: 600;
 line-height: 1.21;
+flex-basis: 50%;
+flex-grow: 0;
 }
 .view__button{
 	padding-top: 23px;
