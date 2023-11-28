@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<p>я хедер</p>
+		</header>
+		<main class="page">
+			<div class="container">
+				<h2>
+					Contact Us
+				</h2>
+				<h1>
+					Request A Call Back !
+				</h1>
+				<form class="container__form" action="GET">
+					<div class="container__area form">
+						<div class="form__name">
+							<input id="name" name="name" autocomplete="on" required placeholder="Your Name" type="text">
+						</div>
+						<div class="form__mail">
+							<input id="mail" name="mail" autocomplete="on" required placeholder="Email Address" type="email">
+						</div>
+						<div class="form__phone">
+							<input name="phone" id="phone" autocomplete="on" required placeholder="Phone Number" type="tel">
+						</div>
+						<div class="form__subject">
+							<input name="subject" id="subject" required placeholder="Subject" type="text">
+						</div>
+						<div class="form__text">
+							<textarea autocomplete="off" placeholder="Message..." name="message"></textarea>
+						</div>
+					</div>
+					<button name="submit" type="submit" class="button">
+						submit
+					</button>
+				</form>
+			</div>
+			<div class="page__euphoria info">
+				<h2 class="page__title">My Info</h2>
+				<h3 class="page__sybtitle">
+					Add Address
+				</h3>
+				<form class="info__container" action="GET">
+					<div class="info__form">
+						<div class="info__item">
+							<div class="info__label">
+								<label for="info-first-name">First Name*</label>
+							</div>
+							<input id="info-first-name" autocomplete="on" required placeholder="First Name" type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="info-last-name">Last Name*</label>
+							</div>
+							<input id="info-last-name" autocomplete="on" required placeholder="Last Name" type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="region">Country / Region*</label>
+							</div>
+							<input id="region" autocomplete="on" required placeholder="Country / Region" type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="company_name">Company Name</label>
+							</div>
+							<input id="company_name" placeholder="Company (optional)" type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="address">Street Address*</label>
+							</div>
+							<input id="address" required autocomplete="on" placeholder="House number and street name"
+								type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="suite">Apt, suite, unit</label>
+							</div>
+							<input id="suite" autocomplete="on" placeholder="apartment, suite, unit, etc. (optional)"
+								type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="city">City*</label>
+							</div>
+							<input id="city" autocomplete="on" required placeholder="Town / City" type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="state">State*</label>
+							</div>
+							<select required name="state" id="state">
+								<option value="">State</option>
+								<option value="2">Kiev</option>
+								<option value="3">Odessa</option>
+								<option value="4">Chernigiv</option>
+								<option value="5">Mykolaiv</option>
+							</select>
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="phone-1">Phone*</label>
+							</div>
+							<input id="phone-1" autocomplete="on" required placeholder="Phone" type="tel">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="postal">Postal Code*</label>
+							</div>
+							<input id="postal" autocomplete="on" required placeholder="Postal Code" type="tel">
+						</div>
+						<div class="info__instruction">
+							<div class="info__label">
+								<label for="delivery">Delivery Instruction</label>
+							</div>
+							<textarea placeholder="Delivery Instruction" name="delivery" id="delivery"></textarea>
+						</div>
+					</div>
+					<div class="info__checkbox checkbox">
+						<div class="checkbox__ship-addres">
+							<input class="checkbox__input" id="ship-addres" type="checkbox">
+							<label class="checkbox__label" for="ship-addres">Set as default shipping address </label>
+						</div>
+						<div class="checkbox__bill-addres">
+							<input class="checkbox__input" id="bill-addres" type="checkbox">
+							<label class="checkbox__label" for="bill-addres">Set as default billing address</label>
+						</div>
+					</div>
+					<div class="info__button">
+						<button class="info__save-button" type="submit">
+							Save
+						</button>
+						<button class="info__cancel-button" type="reset">
+							Cancel
+						</button>
+					</div>
+				</form>
+			</div>
+			<div class="page__euphoria info info--checkout">
+				<h2 class="page__title">Check Out</h2>
+				<h3 class="page__sybtitle">
+					Billing Details
+				</h3>
+				<form class="info__container" action="GET">
+					<div class="info__form">
+						<div class="info__item">
+							<div class="info__label">
+								<label for="info-first-name">First Name*</label>
+							</div>
+							<input id="info-first-name-1" autocomplete="on" required placeholder="First Name" type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="info-last-name-1">Last Name*</label>
+							</div>
+							<input id="info-last-name-1" autocomplete="on" required placeholder="Last Name" type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="region-1">Country / Region*</label>
+							</div>
+							<input id="region-1" autocomplete="on" required placeholder="Country / Region" type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="company_name-1">Company Name</label>
+							</div>
+							<input id="company_name-1" placeholder="Company (optional)" type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="address-1">Street Address*</label>
+							</div>
+							<input id="address-1" required autocomplete="on" placeholder="House number and street name"
+								type="text">
+						</div>
+						<div class="info__item">
+							<div class="info__label">
+								<label for="suite-1">Apt, suite, unit</label>
+							</div>
+							<input id="suite-1" autocomplete="on" placeholder="apartment, suite, unit, etc. (optional)"
+								type="text">
+						</div>
+						<div class="info__item city">
+							<div class="info__label">
+								<label for="city-1">City*</label>
+							</div>
+							<input id="city-1" autocomplete="on" required placeholder="Town / City" type="text">
+						</div>
+						<div class="info__item state">
+							<div class="info__label">
+								<label for="state-1">State*</label>
+							</div>
+							<select required name="state" id="state-1">
+								<option value="">State</option>
+								<option value="2">Kiev</option>
+								<option value="3">Odessa</option>
+								<option value="4">Chernigiv</option>
+								<option value="5">Mykolaiv</option>
+							</select>
+						</div>
+						<div class="info__item code">
+							<div class="info__label">
+								<label for="postal-1">Postal Code*</label>
+							</div>
+							<input id="postal-1" autocomplete="on" required placeholder="Postal Code" type="tel">
+						</div>
+						<div class="info__item phone">
+							<div class="info__label">
+								<label for="phone-2">Phone*</label>
+							</div>
+							<input id="phone-2" autocomplete="on" required placeholder="Phone" type="tel">
+						</div>
+					</div>
+					<div class="info__button">
+						<button class="info__continue-button">
+							Continue to delivery
+						</button>
+					</div>
+					<div class="info__checkbox checkbox">
+						<div class="checkbox__ship-addres">
+							<input class="checkbox__input" id="default-ship-addres" type="checkbox">
+							<label class="checkbox__label" for="default-ship-addres">Set as default shipping address </label>
+						</div>
+					</div>
+				</form>
+				<form class="info__box">
+					<div class="info__shipping-address">
+						<h2>
+							Shipping Address
+						</h2>
+						<h3>
+							Select the address that matches your card or payment method.
+						</h3>
+						<div class="info__radio">
+							<div class="radio">
+								<input checked class="radio__input" type="radio" name="address" id="same-address">
+								<label class="radio__label" for="same-address">Same as Billing address</label>
+							</div>
+							<div class="radio">
+								<input class="radio__input" type="radio" id="different-address" name="address">
+								<label class="radio__label" for="different-address">Use a different shipping address</label>
+							</div>
+						</div>
+					</div>
+					<div class="info__shipping-method method">
+						<h2>
+							Shipping Method
+						</h2>
+						<div class="method__block">
+							<div class="method__arrives">
+								<h3>Arrives by Monday, June 7</h3>
+							</div>
+							<div class="method__charges">
+								<div class="method__description">
+									<h3>
+										Delivery Charges
+									</h3>
+									<h4>
+										Additional fess may apply
+									</h4>
+								</div>
+								<div class="method__cost">
+									<p>
+										$5.00
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="info__payment-method payment">
+						<h2>
+							Payment Method
+						</h2>
+						<h4>
+							All transactions are secure and encrypted.
+						</h4>
+						<div class="payment__block">
+							<div class="payment__card-block payment__container">
+								<div class="payment__card">
+									<input class="payment__item" checked name="payment__item" id="payment__card" type="radio">
+									<label class="payment__label" for="payment__card">
+										<span class="payment__bold-label position-top">
+											Credit Card
+										</span>
+										<span class="payment__tin-label position-bottom">
+											We accept all major credit cards.
+										</span>
+									</label>
+								</div>
+								<div class="payment__detail">
+									<div class="payment__image">
+										<div class="payment__gpay-image">
+											<img src="img/gpay.webp" alt="google pay">
+										</div>
+										<div class="payment__visa-image">
+											<img src="img/visa.webp" alt="visa">
+										</div>
+										<div class="payment__paypal-image">
+											<img src="img/paypal.webp" alt="paypal">
+										</div>
+										<div class="payment__paypass-image">
+											<img src="img/paypass.webp" alt="paypass">
+										</div>
+									</div>
+									<div class="payment__info">
+										<div class="payment__box">
+											<input placeholder="Card number" required class="payment__input" type="tel">
+										</div>
+										<div class="payment__box">
+											<input placeholder="Name of card" required class="payment__input" type="text">
+										</div>
+										<div class="payment__box">
+											<input placeholder="Expiration date (MM/YY)" required class="payment__input"
+												type="tel">
+										</div>
+										<div class="payment__box">
+											<input placeholder="Security Code" required class="payment__input" type="tel">
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="payment__cash payment__container">
+								<input class="payment__item" name="payment__item" id="payment__cash" type="radio">
+								<label class="payment__label" for="payment__cash">
+									<span class="payment__bold-label position-cash-top">
+										Cash on delivery
+									</span>
+									<span class="payment__tin-label position-cash-bottom">
+										Pay with cash upon delivery.
+									</span>
+								</label>
+							</div>
+							<div class="payment__paypal payment__container">
+								<input class="payment__item" name="payment__item" id="payment__paypal" type="radio">
+								<label class="payment__label payment__label--payment" for="payment__paypal">
+									<span class="payment__bold-label position">
+										Paypal
+									</span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="info__button">
+						<button class="info__continue-button">
+							Pay Now
+						</button>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<p>я футер</p>
+		</footer>
+	</div>
+</body>
+
+</html>
