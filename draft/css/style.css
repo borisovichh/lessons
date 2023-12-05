@@ -293,3 +293,6 @@ margin-bottom: 100px;
 .image{
 	display: block;
 }
+.image:hover{
+	transform:scale(1.02);
+}
